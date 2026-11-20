@@ -1,0 +1,24 @@
+# Copyright 2026 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Valuation pipeline (installed on top of the vllm/vllm-openai image; see Dockerfile).
+# Versions are the ones the pipeline was tested with.
+vllm==0.29.0
+datasets==5.0.1
+litellm==1.100.1
+sentence-transformers==6.0.1
+hnswlib==0.8.0
+numpy==2.2.6
+tqdm==4.70.0
+transformers==5.17.0
